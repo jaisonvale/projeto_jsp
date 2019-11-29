@@ -1,0 +1,114 @@
+/****UFPI-UNIVERSIDADE FEDERAL DO PIAUÃ�
+*****CEAD-CENTRO DE EDUCAÃ‡ÃƒO ABERTA A DISTANCIA
+*****DISCIPLINA: DESENVOLVIMENTO PARA WEB
+*****DESENVOLVIDO PELO ALUNO: JAISON DO VALE SILVA
+
+
+***DESENVOLVIMENTO PARA WEB
+
+**/
+
+body{
+	color: black;
+	background: #000000;
+	margin: 0;
+	padding: 0;
+}
+.top {
+	background: rgb(1,2,23, .9);
+	float: none;
+}
+.top li {
+	display: inline-block;
+}
+.top a {
+	text-decoration: none;
+	color: #800080;
+}
+.aba {
+
+	padding: 10px;
+	margin: 1px;
+}
+
+.aba:hover a {
+	color: orange;
+}
+
+
+.bloco {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	background: rgb(1,3,3,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgb(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.bloco .box {
+	position: relative;
+}
+.bloco .box input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #800080;
+	outline: none;
+	background: transparent;
+}
+.bloco .box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #800080;
+	pointer-events: none;
+	transition: 0.5s;
+	
+}
+.bloco .box input:focus ~ label,
+.bloco .box  input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 15px;
+}
+.box input[type="submit"] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+.rodape {
+	background: #ddf;
+	color: black;
+	font-family: verdana; 
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.container {width: 1000px; border: 1px solid #233d; margin: 8px auto;background: #b5b5b5; }
+.row { margin-left: -20px; } 
+.span1 {width: 200px; float:	left; margin-left: 60px; background: #d5d5d5 } 
+.row:after {  /* técnica moderna para clear floats */ 
+	content: ""; 
+	display: table;
+	line-height: 0;
+	clear:both;
+	}

@@ -1,0 +1,39 @@
+body{
+	font-family:  "Myriad Pro", Frutiger;
+	font-size: 12px;
+}
+
+h4 {
+	font-size: 24px;
+	left: 20%;
+}
+
+tr:hover {
+	background-color: #3d80df;
+	color: #fff;
+}
+
+thead tr:hover {
+	background-color: transparent;
+	color: inherit;
+}
+
+
+
+
+th {
+	text-align: left;
+	border: 1px solid #0080c0;
+	text-align: center;
+}
+
+td {
+	border: 1px solid #a3d324;
+	text-align: left;
+}
+.id{
+	width: 30px;
+}
+.box{
+	width: 200px;
+}
